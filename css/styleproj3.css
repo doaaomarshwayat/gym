@@ -1,0 +1,210 @@
+body{
+    background-image: URL(5.jpg);
+    background-color: #000;
+    box-sizing: border-box;
+    -webkit-background-image: URL("3.png");
+    -moz-background-image:URL("3.png");
+    
+}
+.container{width:1170px;margin:auto;}
+.navbar{
+    background-color:#494742;
+    color:#fff;
+    overflow: hidden;/* حتى العناصر ما تطلع منها */
+    font-family:  sans-serif;
+    display: flex;
+    flex-direction: row;
+    height:83px ;
+}
+ .navbar img{
+    position: relative;
+    top:-31px;
+    left:-88px;
+    width: 142px;
+    
+ }
+ .navbar ul {
+    position: relative;
+    top:15px;
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float:right;
+    m
+}
+.navbar ul li{float:left;padding-left:10px;}
+ .navbar ul li a{color:#fff;text-decoration: none;}
+ .navbar ul li.active a,
+  .navbar ul li a:hover{color:aqua;}
+.big-con{
+    display: flex;
+    flex-direction: column;
+}
+.big-con .slide1, .big-con .slide2{
+    height: 500px;
+    border-radius: 20px;
+    border:2px solid #fff;
+    background: #0009;
+    opacity: 0.9;
+    margin: 77px;
+    opacity: 0.9;
+    
+    
+}
+.slide1 div{
+
+    position: relative;
+    top: 100px;
+    left:100px;
+    width:43%;
+    float: left;
+}
+.slide1 div .p1{
+    color:#fff;
+    font-size: 40px;
+    font-family:font-weight;
+}
+.slide1 div .b1{
+    background-color: aqua;
+}
+.slide1 div .b2{
+    background: none;
+    margin-left: 15px;
+    color:#fff
+}
+.slide1 div .b1, .slide1 div .b2{
+    width:150px;
+    border:1px solid #fff;
+    height: 50px;
+    border-radius: 6px;
+    line-height: 1.7;
+    font-weight: bold;
+    font-size: 19px;
+   padding: 10px;
+
+} 
+.slide1 .img2{
+    margin-right: 20px;
+    float: right;
+    margin-bottom: -10px;
+}
+.slide1 .img2 img{
+    height:529px;
+}
+.slide2 .con2{
+    display: flex;
+    margin:10px 70px;
+    position: relative;
+    top:50px;
+    
+}
+.slide2 .con2 .cot{
+    
+    justify-content: space-between;
+    width: 380px;
+    height: 400px;
+    background-color: #201c11;
+    margin-left: 20px;
+   border:1px solid #fff;
+   border-radius: 12px;
+   
+   
+   
+}
+
+.cot .img3{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 9px;
+    
+}
+.cot .img3 img{
+    
+    
+    border:1px solid #fff;
+    border-radius: 50%;
+    height: 180px;
+    width:189px;
+    padding: 3px;
+    
+}
+
+.cot .p1 {
+color:#fff;
+margin:10px 4px ;
+font-size: 20px;
+line-height: 1.6;
+text-align: center;
+}
+.cot:hover{
+    transform: translatex(3px);
+    background-color: #e2ee16;
+}
+
+.form{
+    background-color: #494742;
+    height: 600px; 
+    margin-top: -14px;
+    height: 600px;
+    color:#fff;
+    margin-top: 35px;
+    padding: 20px;
+  }
+  .form form{
+    width: 1170px;
+    height: 600px;
+    margin-left: 358px;
+    
+  }
+  .form form input{
+
+  }
+  .form form input[type="text"],.form form input[type="email"],.form form input[type="password"]{
+    background-color: #3f423b;
+    margin-left: 5px;
+    width: 243px;
+    height: 26px;
+   padding: 10px;
+   border-radius: 20px;
+   margin-top: 33px;
+   color:#fff;
+   font-weight: bold;
+  }
+  .form form .rala{
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 2.8;
+    
+  }
+  .form form .radio{
+    font-size: 30px;
+    line-height: 1.6;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  .form form select{
+    margin-top: -3spx;
+    padding: 11px;
+    width: 284px;
+    height: 60px;
+    border-radius: 17px;
+    background-color: #101031;
+    color:#fff;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .form form input[type="submit"]{
+    display: block;
+    width:300px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 289px;
+    color:#fff;
+    line-height: 1.7;
+  }
+  

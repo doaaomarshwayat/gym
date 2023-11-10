@@ -1,0 +1,21 @@
+
+.container{width:1170px;margin:auto;}
+.navbar{
+    background-color:#78631d;
+    color:#fff;
+    overflow: hidden;/* حتى العناصر ما تطلع منها */
+    
+}
+ .navbar h2 {text-transform:uppercase;}
+ .navbar h2 span {color:#e2ee16}
+ .navbar ul {
+    list-style:none;
+    padding-left:0;
+    overflow:hidden;
+    float:right;
+    margin-top: -42px;
+}
+.navbar ul li{float:left;padding-left:10px;}
+ .navbar ul li a{color:#fff;text-decoration: none;}
+ .navbar ul li.active a,
+  .navbar ul li a:hover{color:#e2ee16;}
